@@ -14,6 +14,32 @@ branches:
     is-release-branch: true
     is-main-branch: true
     pre-release-weight: 55000
+  develop:
+    mode: ContinuousDelivery
+    label: alpha
+    increment: Minor
+    regex: ^develop$
+    source-branches:
+    - main
+    prevent-increment:
+      when-current-commit-tagged: false
+    pre-release-weight: 0
+  feature:
+    source-branches:
+    - main
+    - develop
+    - release
+  hotfix:
+    source-branches:
+    - main
+    - release
+  pull-request:
+    source-branches:
+    - main
+    - develop
+    - release
+    - feature
+    - hotfix
 
 prevent-increment:
   of-merged-branch: true
