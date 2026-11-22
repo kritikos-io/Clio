@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "nuget.config": "xml"
+    },
+    "xml.format.maxLineWidth": 0,
+    "xml.format.splitAttributes": "preserve",
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+      {
+        "file": ".github/copilot-commit-message-instructions.md"
+      }
+    ]
+  }
+}
