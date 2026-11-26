@@ -6,7 +6,7 @@
   </ImportGroup>
 
   <PropertyGroup Label="Package">
-    <PackageProjectUrl>http://localhost</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/kritikos-io/Clio</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup Label="GitVersion per-project scoping">
